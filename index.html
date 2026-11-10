@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#6E1B22" />
+  <meta name="description" content="Dinithi & Pasindu — Wedding Invitation · Thursday, 10 December 2026 · Araliya Resort & Spa Hotel, Unawatuna, Galle." />
+  <title>Dinithi &amp; Pasindu — Wedding Invitation</title>
+
+  <link rel="icon" href="assets/deco/lotus.svg" />
+
+  <!-- Google Fonts
+       Bodoni Moda — luxury high-contrast serif (names, headings)
+       Cormorant   — refined italic body & quotes
+       Raleway     — clean sans for small labels & buttons
+       Parisienne  — elegant script accents -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Raleway:wght@300;400;500;600&family=Parisienne&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Adds .js so animations only hide content when JavaScript is available -->
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+</head>
+<body>
+
+  <!-- Thin maroon reading-progress line (animated by JS) -->
+  <div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       HERO — Kandyan arch, lotus medallions, falling petals
+  ============================================================ -->
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-rays" aria-hidden="true"></div>
+    <div class="petal-field" id="petalField" aria-hidden="true"></div>
+
+    <!-- A very large, faint lotus behind the arch -->
+    <span class="hero-halo" aria-hidden="true">
+      <img src="assets/deco/lotus-large.jpg" alt="" width="1600" height="1600" />
+    </span>
+
+    <!-- Maroon lotus medallions from /decoration (parallax by JS) -->
+    <span class="hero-medallion hm-tl" data-parallax="14" aria-hidden="true">
+      <img src="assets/deco/lotus-large.jpg" alt="" width="1600" height="1600" />
+    </span>
+    <span class="hero-medallion hm-br" data-parallax="-10" aria-hidden="true">
+      <img src="assets/deco/lotus-mid.jpg" alt="" width="736" height="736" />
+    </span>
+    <span class="hero-medallion hm-tr" data-parallax="8" aria-hidden="true">
+      <img src="assets/deco/lotus-tiny.jpg" alt="" width="400" height="400" />
+    </span>
+    <span class="hero-medallion hm-bl" data-parallax="-6" aria-hidden="true">
+      <img src="assets/deco/lotus-small.jpg" alt="" width="360" height="360" />
+    </span>
+
+    <span class="deco corner-deco corner--tl hero-corner" aria-hidden="true"></span>
+    <span class="deco corner-deco corner--tr hero-corner" aria-hidden="true"></span>
+    <span class="deco corner-deco corner--bl hero-corner" aria-hidden="true"></span>
+    <span class="deco corner-deco corner--br hero-corner" aria-hidden="true"></span>
+
+    <!-- ── HERO VIDEO (ADD LATER, WHEN THE AI VIDEO IS READY) ─────
+         The bride wants a video of the couple here.
+         1. Put the file at:  assets/video/hero.mp4
+         2. Add the class "hero--video" to the
+            <section class="hero" id="top"> tag above.
+         3. Uncomment the <video> line below.
+
+    <video class="hero-video" src="assets/video/hero.mp4" autoplay muted loop playsinline></video>
+    ─────────────────────────────────────────────────────────── -->
+
+    <div class="hero-inner">
+      <div class="arch-card">
+        <div class="arch-line arch-line--outer" aria-hidden="true"></div>
+        <div class="arch-line arch-line--inner" aria-hidden="true"></div>
+        <span class="arch-corner ac-bl deco corner-deco" aria-hidden="true"></span>
+        <span class="arch-corner ac-br deco corner-deco" aria-hidden="true"></span>
+        <span class="arch-crest" aria-hidden="true">
+          <img src="assets/deco/lotus-small.jpg" alt="" width="360" height="360" />
+        </span>
+
+        <div class="hero-content">
+          <p class="hero-kicker hero-anim">The Wedding Of</p>
+
+          <h1 class="hero-names hero-anim">
+            <span class="hn-name">Dinithi</span>
+            <span class="hn-amp">&amp;</span>
+            <span class="hn-name">Pasindu</span>
+          </h1>
+
+          <div class="ornament hero-anim" aria-hidden="true">
+            <span></span><i>✦</i><span></span>
+          </div>
+
+          <p class="hero-date hero-anim">Thursday · 10 December 2026</p>
+          <p class="hero-venue hero-anim">Araliya Resort &amp; Spa Hotel · Unawatuna, Galle</p>
+          <p class="hero-note hero-anim">Poruwa ceremony at 9.58 a.m.</p>
+
+          <a href="#date" class="btn btn--maroon hero-anim">Open Invitation</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lotus-petal ornament band -->
+    <div class="hero-foot">
+      <span class="deco band-deco hero-band" aria-hidden="true"></span>
+      <span class="scroll-line" aria-hidden="true"></span>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       DATE — maroon strip with the big date
+  ============================================================ -->
+  <section class="date-section" id="date">
+    <span class="date-medallion deco lotus-deco" aria-hidden="true"></span>
+    <span class="deco corner-deco corner--tl" aria-hidden="true"></span>
+    <span class="deco corner-deco corner--tr" aria-hidden="true"></span>
+    <span class="deco corner-deco corner--bl" aria-hidden="true"></span>
+    <span class="deco corner-deco corner--br" aria-hidden="true"></span>
+
+    <div class="container">
+      <p class="kicker kicker--gold reveal">Mark Your Calendar</p>
+      <h2 class="section-title section-title--light reveal">Save the Date</h2>
+
+      <div class="date-row">
+        <div class="date-cell reveal" data-delay="0">
+          <span class="date-num">10</span>
+          <span class="date-sub">Day</span>
+        </div>
+        <span class="date-sep reveal" data-delay="80" aria-hidden="true">✦</span>
+        <div class="date-cell reveal" data-delay="160">
+          <span class="date-num">December</span>
+          <span class="date-sub">Month</span>
+        </div>
+        <span class="date-sep reveal" data-delay="240" aria-hidden="true">✦</span>
+        <div class="date-cell reveal" data-delay="320">
+          <span class="date-num">2026</span>
+          <span class="date-sub">Year</span>
+        </div>
+      </div>
+
+      <p class="date-note reveal">We would be honoured to have you with us as we begin our life together.</p>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       QUOTE — full-bleed photo with maroon overlay
+  ============================================================ -->
+  <section class="quote-section">
+    <div class="quote-photo" aria-hidden="true"></div>
+    <div class="quote-overlay" aria-hidden="true"></div>
+    <span class="quote-medallion quote-medallion--left" aria-hidden="true">
+      <img src="assets/deco/lotus-mid.jpg" alt="" width="736" height="736" />
+    </span>
+    <span class="quote-medallion quote-medallion--right" aria-hidden="true">
+      <img src="assets/deco/lotus-tiny.jpg" alt="" width="400" height="400" />
+    </span>
+    <span class="deco corner-deco corner--tl quote-corner" aria-hidden="true"></span>
+    <span class="deco corner-deco corner--br quote-corner" aria-hidden="true"></span>
+
+    <div class="container">
+      <div class="quote-inner reveal">
+        <p class="quote-mark" aria-hidden="true">❝</p>
+        <blockquote class="quote-text">
+          May the blessings of our elders, the light of the lamp, and the love
+          of all gathered here keep your home in peace, your hearts in joy,
+          and your lives long together.
+        </blockquote>
+        <div class="quote-rule" aria-hidden="true"></div>
+        <p class="quote-attr">Ayubowan — may you live long</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       COUNTDOWN (animated by JS — date is set in js/main.js)
+  ============================================================ -->
+  <section class="countdown-section" id="countdown-section">
+    <span class="cd-watermark deco lotus-deco" aria-hidden="true"></span>
+
+    <div class="container">
+      <p class="kicker reveal">The Clock Is Ticking</p>
+      <h2 class="section-title reveal">Until the Poruwa</h2>
+      <span class="deco divider-deco section-divider reveal" aria-hidden="true"></span>
+
+      <div class="countdown" id="countdown">
+        <div class="cd-card reveal" data-delay="0">
+          <span class="cd-num" id="cd-days">00</span>
+          <span class="cd-unit">Days</span>
+        </div>
+        <div class="cd-divider reveal" data-delay="60" aria-hidden="true">:</div>
+        <div class="cd-card reveal" data-delay="120">
+          <span class="cd-num" id="cd-hours">00</span>
+          <span class="cd-unit">Hours</span>
+        </div>
+        <div class="cd-divider reveal" data-delay="180" aria-hidden="true">:</div>
+        <div class="cd-card reveal" data-delay="240">
+          <span class="cd-num" id="cd-mins">00</span>
+          <span class="cd-unit">Minutes</span>
+        </div>
+        <div class="cd-divider reveal" data-delay="300" aria-hidden="true">:</div>
+        <div class="cd-card reveal" data-delay="360">
+          <span class="cd-num" id="cd-secs">00</span>
+          <span class="cd-unit">Seconds</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       COUPLE — arch portrait + families
+  ============================================================ -->
+  <section class="couple-section" id="couple">
+    <div class="container">
+      <p class="kicker reveal">The Couple</p>
+      <h2 class="section-title reveal">Bride &amp; Groom</h2>
+      <p class="couple-intro reveal">
+        Together with their families, request the pleasure of your company
+      </p>
+
+      <div class="couple-frame reveal-zoom">
+        <span class="cf-crest" aria-hidden="true">
+          <span class="deco lotus-deco"></span>
+        </span>
+        <div class="cf-border" aria-hidden="true"></div>
+        <img class="couple-img" src="assets/photos/photo-07.jpg" alt="Dinithi and Pasindu" width="1067" height="1600" decoding="async" />
+      </div>
+
+      <div class="couple-names">
+        <div class="person person--bride reveal">
+          <span class="person-role">The Bride</span>
+          <h3 class="person-name">Dinithi</h3>
+          <p class="person-parents">
+            Loving daughter of<br />
+            <strong>Mr. Anurada De Silva</strong><br />
+            &amp; <strong>Mrs. Sithija Nisansala</strong>
+          </p>
+        </div>
+
+        <div class="person-amp reveal" data-delay="120" aria-hidden="true">
+          <span>&amp;</span>
+          <i></i>
+        </div>
+
+        <div class="person person--groom reveal" data-delay="200">
+          <span class="person-role">The Groom</span>
+          <h3 class="person-name">Pasindu</h3>
+          <p class="person-parents">
+            Loving son of<br />
+            <strong>Mr. Semage Damith</strong><br />
+            &amp; <strong>Mrs. Sudarshi Viyanga</strong>
+          </p>
+        </div>
+      </div>
+
+      <span class="deco divider-deco couple-divider" aria-hidden="true"></span>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       DRUMMERS — decorative vignette between sections
+  ============================================================ -->
+  <div class="drummer-strip" aria-hidden="true">
+    <span class="drummer-watermark deco lotus-deco"></span>
+    <span class="deco corner-deco corner--tl drummer-corner"></span>
+    <span class="deco corner-deco corner--br drummer-corner"></span>
+
+    <img class="drummer" src="assets/deco/drummer-1.png" alt="" loading="lazy" decoding="async" width="372" height="586" />
+
+    <div class="drummer-center">
+      <span class="drummer-medallion">
+        <img src="assets/deco/lotus-small.jpg" alt="" loading="lazy" decoding="async" width="360" height="360" />
+      </span>
+      <span class="drummer-date">10 · 12 · 2026</span>
+    </div>
+
+    <img class="drummer drummer--mirror" src="assets/deco/drummer-1.png" alt="" loading="lazy" decoding="async" width="372" height="586" />
+  </div>
+
+
+  <!-- ============================================================
+       GALLERY — clicks open the lightbox
+  ============================================================ -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <p class="kicker reveal">Our Story</p>
+      <h2 class="section-title reveal">Moments in Frames</h2>
+      <span class="deco divider-deco section-divider reveal" aria-hidden="true"></span>
+      <p class="gallery-sub reveal">Memories that lead us to this beautiful moment</p>
+
+      <div class="gallery-grid">
+        <button class="g-item g-wide g-ani" type="button" data-full="assets/photos/photo-03.jpg">
+          <img src="assets/photos/photo-03.jpg" alt="A moment from our story" width="1600" height="1067" loading="lazy" decoding="async" />
+        </button>
+        <button class="g-item g-tall g-ani" type="button" data-full="assets/photos/photo-04.jpg">
+          <img src="assets/photos/photo-04.jpg" alt="A moment from our story" width="1067" height="1600" loading="lazy" decoding="async" />
+        </button>
+        <button class="g-item g-ani" type="button" data-full="assets/photos/photo-05.jpg">
+          <img src="assets/photos/photo-05.jpg" alt="A moment from our story" width="1067" height="1600" loading="lazy" decoding="async" />
+        </button>
+        <button class="g-item g-wide g-ani" type="button" data-full="assets/photos/photo-06.jpg">
+          <img src="assets/photos/photo-06.jpg" alt="A moment from our story" width="1600" height="1067" loading="lazy" decoding="async" />
+        </button>
+        <button class="g-item g-tall g-ani" type="button" data-full="assets/photos/photo-07.jpg">
+          <img src="assets/photos/photo-07.jpg" alt="A moment from our story" width="1067" height="1600" loading="lazy" decoding="async" />
+        </button>
+        <button class="g-item g-ani" type="button" data-full="assets/photos/photo-08.jpg">
+          <img src="assets/photos/photo-08.jpg" alt="A moment from our story" width="1067" height="1600" loading="lazy" decoding="async" />
+        </button>
+        <button class="g-item g-ani" type="button" data-full="assets/photos/photo-09.jpg">
+          <img src="assets/photos/photo-09.jpg" alt="A moment from our story" width="1067" height="1600" loading="lazy" decoding="async" />
+        </button>
+        <button class="g-item g-ani" type="button" data-full="assets/photos/photo-10.jpg">
+          <img src="assets/photos/photo-10.jpg" alt="A moment from our story" width="1067" height="1600" loading="lazy" decoding="async" />
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       VENUE / MAP
+  ============================================================ -->
+  <section class="venue-section" id="venue">
+    <div class="container">
+      <p class="kicker reveal">The Celebration</p>
+      <h2 class="section-title reveal">The Venue</h2>
+      <span class="deco divider-deco section-divider reveal" aria-hidden="true"></span>
+
+      <div class="venue-card reveal">
+        <span class="deco corner-deco venue-corner venue-corner--tl" aria-hidden="true"></span>
+        <span class="deco corner-deco venue-corner venue-corner--br" aria-hidden="true"></span>
+
+        <div class="venue-info">
+          <div class="venue-diamond" aria-hidden="true">◆</div>
+          <h3 class="venue-name">Araliya Resort &amp; Spa Hotel</h3>
+          <p class="venue-hall">Poruwa Ceremony</p>
+          <p class="venue-address">
+            Unawatuna,<br />
+            Galle,<br />
+            Sri Lanka
+          </p>
+
+          <div class="venue-details">
+            <div class="venue-row">
+              <span class="venue-key">Date</span>
+              <span class="venue-val">Thursday, 10th December 2026</span>
+            </div>
+            <div class="venue-row">
+              <span class="venue-key">Arrival</span>
+              <span class="venue-val">From 9.30 a.m. onwards</span>
+            </div>
+            <div class="venue-row">
+              <span class="venue-key">Poruwa</span>
+              <span class="venue-val">9.58 a.m.</span>
+            </div>
+            <div class="venue-row">
+              <span class="venue-key">Dress Code</span>
+              <span class="venue-val">Sri Lankan traditional / formal</span>
+            </div>
+          </div>
+
+          <a class="btn btn--maroon btn--small"
+             href="https://www.google.com/maps/search/?api=1&amp;query=Araliya+Resort+and+Spa+Hotel+Unawatuna+Galle"
+             target="_blank" rel="noopener">Open in Google Maps</a>
+        </div>
+
+        <div class="venue-map">
+          <iframe
+            title="Map to Araliya Resort and Spa Hotel, Unawatuna"
+            src="https://www.google.com/maps?q=Araliya%20Resort%20and%20Spa%20Hotel%20Unawatuna%20Galle&amp;output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       RSVP — sends the reply via WhatsApp (number in js/main.js)
+  ============================================================ -->
+  <section class="rsvp-section" id="rsvp">
+    <span class="rsvp-watermark deco lotus-deco" aria-hidden="true"></span>
+    <span class="deco band-deco rsvp-band" aria-hidden="true"></span>
+
+    <div class="container">
+      <p class="kicker kicker--gold reveal">Your Response</p>
+      <h2 class="section-title section-title--light reveal">Kindly Reply By 25 November 2026</h2>
+
+      <div class="rsvp-wrap reveal">
+        <form class="rsvp-form" novalidate>
+          <div class="field">
+            <label class="field-label" for="rsvpName">Your Name</label>
+            <input class="field-input" type="text" id="rsvpName" name="name" placeholder="Full name" required />
+          </div>
+
+          <div class="field">
+            <label class="field-label" for="rsvpPhone">Phone Number</label>
+            <input class="field-input" type="tel" id="rsvpPhone" name="phone" placeholder="+94 77 123 4567" />
+          </div>
+
+          <div class="field">
+            <label class="field-label" for="rsvpGuests">Number of Guests</label>
+            <select class="field-input" id="rsvpGuests" name="guests">
+              <option value="" selected>Select</option>
+              <option value="1 — Just me">1 — Just me</option>
+              <option value="2 — Myself &amp; partner">2 — Myself &amp; partner</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5+">5+</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <span class="field-label">Will you join us?</span>
+            <div class="rsvp-choices">
+              <label class="rsvp-choice">
+                <input type="radio" name="attending" value="yes" />
+                <span>Joyfully Accepts</span>
+              </label>
+              <label class="rsvp-choice">
+                <input type="radio" name="attending" value="no" />
+                <span>Regretfully Declines</span>
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn--cream btn--full">Send RSVP</button>
+          <p class="rsvp-hint">Your reply opens in WhatsApp, ready to send.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <span class="deco band-deco footer-band" aria-hidden="true"></span>
+
+    <p class="footer-script">Dinithi &amp; Pasindu</p>
+    <p class="footer-date">10 · December · 2026</p>
+    <p class="footer-note">Poruwa Ceremony · Araliya Resort &amp; Spa, Unawatuna</p>
+
+    <div class="ornament ornament--footer" aria-hidden="true">
+      <span></span><i>✦</i><span></span>
+    </div>
+
+    <p class="footer-credit">With love, from our families</p>
+    <p class="footer-credit">
+      Questions? <a href="https://wa.me/94771234567" data-whatsapp>Message us on WhatsApp</a>
+    </p>
+  </footer>
+
+
+  <!-- ============================================================
+       LIGHTBOX (used by the gallery)
+  ============================================================ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close photo">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" type="button" aria-label="Previous photo">&#8249;</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" type="button" aria-label="Next photo">&#8250;</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

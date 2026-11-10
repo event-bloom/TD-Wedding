@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="#6E1B22" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round">
+  <defs>
+    <path id="petal" d="M100 100C82 84 79 58 100 32c21 26 18 52 0 68Z"/>
+  </defs>
+
+  <circle cx="100" cy="100" r="96" stroke-width=".6" opacity=".45"/>
+  <circle cx="100" cy="100" r="89" opacity=".8"/>
+
+  <g>
+    <use href="#petal"/>
+    <use href="#petal" transform="rotate(45 100 100)"/>
+    <use href="#petal" transform="rotate(90 100 100)"/>
+    <use href="#petal" transform="rotate(135 100 100)"/>
+    <use href="#petal" transform="rotate(180 100 100)"/>
+    <use href="#petal" transform="rotate(225 100 100)"/>
+    <use href="#petal" transform="rotate(270 100 100)"/>
+    <use href="#petal" transform="rotate(315 100 100)"/>
+  </g>
+
+  <g opacity=".8">
+    <use href="#petal" transform="rotate(22.5 100 100) translate(100 100) scale(.6) translate(-100 -100)"/>
+    <use href="#petal" transform="rotate(67.5 100 100) translate(100 100) scale(.6) translate(-100 -100)"/>
+    <use href="#petal" transform="rotate(112.5 100 100) translate(100 100) scale(.6) translate(-100 -100)"/>
+    <use href="#petal" transform="rotate(157.5 100 100) translate(100 100) scale(.6) translate(-100 -100)"/>
+    <use href="#petal" transform="rotate(202.5 100 100) translate(100 100) scale(.6) translate(-100 -100)"/>
+    <use href="#petal" transform="rotate(247.5 100 100) translate(100 100) scale(.6) translate(-100 -100)"/>
+    <use href="#petal" transform="rotate(292.5 100 100) translate(100 100) scale(.6) translate(-100 -100)"/>
+    <use href="#petal" transform="rotate(337.5 100 100) translate(100 100) scale(.6) translate(-100 -100)"/>
+  </g>
+
+  <circle cx="100" cy="100" r="11"/>
+  <circle cx="100" cy="100" r="4.2" fill="#6E1B22" stroke="none"/>
+
+  <g fill="#6E1B22" stroke="none" opacity=".65">
+    <circle cx="129.5" cy="28.9" r="1.4"/>
+    <circle cx="171.1" cy="70.5" r="1.4"/>
+    <circle cx="171.1" cy="129.5" r="1.4"/>
+    <circle cx="129.5" cy="171.1" r="1.4"/>
+    <circle cx="70.5" cy="171.1" r="1.4"/>
+    <circle cx="28.9" cy="129.5" r="1.4"/>
+    <circle cx="28.9" cy="70.5" r="1.4"/>
+    <circle cx="70.5" cy="28.9" r="1.4"/>
+  </g>
+</svg>
